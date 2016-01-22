@@ -14,6 +14,18 @@
 		FFEF20441C50CD3B0056B25C /* Architecture.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FFEF20421C50CD3B0056B25C /* Architecture.xcdatamodeld */; };
 		FFEF20461C50CD3B0056B25C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFEF20451C50CD3B0056B25C /* Assets.xcassets */; };
 		FFEF20491C50CD3B0056B25C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFEF20471C50CD3B0056B25C /* LaunchScreen.storyboard */; };
+		FFEF20551C50CD900056B25C /* SAPBaseCoreDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEF20541C50CD900056B25C /* SAPBaseCoreDataObject.m */; };
+		FFEF205B1C50CDAC0056B25C /* InboxAppBaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEF20591C50CDAC0056B25C /* InboxAppBaseService.m */; };
+		FFEF20621C50CDDA0056B25C /* InboxAppTask.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEF205D1C50CDDA0056B25C /* InboxAppTask.m */; };
+		FFEF20631C50CDDA0056B25C /* InboxAppQueueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEF205F1C50CDDA0056B25C /* InboxAppQueueManager.m */; };
+		FFEF20641C50CDDA0056B25C /* InboxAppTaskForwardCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEF20611C50CDDA0056B25C /* InboxAppTaskForwardCenter.m */; };
+		FFEF20671C50CDE30056B25C /* InboxAppRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEF20661C50CDE30056B25C /* InboxAppRequestManager.m */; };
+		FFEF20691C50CF030056B25C /* MagicalRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFEF20681C50CF030056B25C /* MagicalRecord.framework */; };
+		FFEF206E1C50CFB10056B25C /* NSString+TCEExt.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEF206D1C50CFB10056B25C /* NSString+TCEExt.m */; };
+		FFEF20721C51FB170056B25C /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFEF20711C51FB170056B25C /* AFNetworking.framework */; };
+		FFEF20751C51FC830056B25C /* InboxAppDemoService.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEF20741C51FC830056B25C /* InboxAppDemoService.m */; };
+		FFEF20801C51FED30056B25C /* People+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEF207D1C51FED30056B25C /* People+CoreDataProperties.m */; };
+		FFEF20841C51FEEB0056B25C /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEF20831C51FEEB0056B25C /* People.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +40,29 @@
 		FFEF20451C50CD3B0056B25C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFEF20481C50CD3B0056B25C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFEF204A1C50CD3B0056B25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFEF20531C50CD900056B25C /* SAPBaseCoreDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPBaseCoreDataObject.h; sourceTree = "<group>"; };
+		FFEF20541C50CD900056B25C /* SAPBaseCoreDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPBaseCoreDataObject.m; sourceTree = "<group>"; };
+		FFEF20581C50CDAC0056B25C /* InboxAppBaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxAppBaseService.h; sourceTree = "<group>"; };
+		FFEF20591C50CDAC0056B25C /* InboxAppBaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InboxAppBaseService.m; sourceTree = "<group>"; };
+		FFEF205C1C50CDDA0056B25C /* InboxAppTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxAppTask.h; sourceTree = "<group>"; };
+		FFEF205D1C50CDDA0056B25C /* InboxAppTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InboxAppTask.m; sourceTree = "<group>"; };
+		FFEF205E1C50CDDA0056B25C /* InboxAppQueueManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxAppQueueManager.h; sourceTree = "<group>"; };
+		FFEF205F1C50CDDA0056B25C /* InboxAppQueueManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InboxAppQueueManager.m; sourceTree = "<group>"; };
+		FFEF20601C50CDDA0056B25C /* InboxAppTaskForwardCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxAppTaskForwardCenter.h; sourceTree = "<group>"; };
+		FFEF20611C50CDDA0056B25C /* InboxAppTaskForwardCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InboxAppTaskForwardCenter.m; sourceTree = "<group>"; };
+		FFEF20651C50CDE30056B25C /* InboxAppRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxAppRequestManager.h; sourceTree = "<group>"; };
+		FFEF20661C50CDE30056B25C /* InboxAppRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InboxAppRequestManager.m; sourceTree = "<group>"; };
+		FFEF20681C50CF030056B25C /* MagicalRecord.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MagicalRecord.framework; path = Carthage/Build/iOS/MagicalRecord.framework; sourceTree = "<group>"; };
+		FFEF206B1C50CF500056B25C /* HPCommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPCommonMacro.h; sourceTree = "<group>"; };
+		FFEF206C1C50CFB10056B25C /* NSString+TCEExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TCEExt.h"; sourceTree = "<group>"; };
+		FFEF206D1C50CFB10056B25C /* NSString+TCEExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TCEExt.m"; sourceTree = "<group>"; };
+		FFEF20711C51FB170056B25C /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
+		FFEF20731C51FC830056B25C /* InboxAppDemoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxAppDemoService.h; sourceTree = "<group>"; };
+		FFEF20741C51FC830056B25C /* InboxAppDemoService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InboxAppDemoService.m; sourceTree = "<group>"; };
+		FFEF207C1C51FED30056B25C /* People+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "People+CoreDataProperties.h"; sourceTree = "<group>"; };
+		FFEF207D1C51FED30056B25C /* People+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "People+CoreDataProperties.m"; sourceTree = "<group>"; };
+		FFEF20821C51FEEB0056B25C /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		FFEF20831C51FEEB0056B25C /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFEF20721C51FB170056B25C /* AFNetworking.framework in Frameworks */,
+				FFEF20691C50CF030056B25C /* MagicalRecord.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +81,8 @@
 		FFEF202A1C50CD3A0056B25C = {
 			isa = PBXGroup;
 			children = (
+				FFEF20711C51FB170056B25C /* AFNetworking.framework */,
+				FFEF20681C50CF030056B25C /* MagicalRecord.framework */,
 				FFEF20351C50CD3A0056B25C /* Architecture */,
 				FFEF20341C50CD3A0056B25C /* Products */,
 			);
@@ -60,6 +99,10 @@
 		FFEF20351C50CD3A0056B25C /* Architecture */ = {
 			isa = PBXGroup;
 			children = (
+				FFEF206A1C50CF490056B25C /* Util */,
+				FFEF20501C50CD700056B25C /* Model */,
+				FFEF20511C50CD700056B25C /* Service */,
+				FFEF20521C50CD700056B25C /* TaskManager */,
 				FFEF20391C50CD3B0056B25C /* AppDelegate.h */,
 				FFEF203A1C50CD3B0056B25C /* AppDelegate.m */,
 				FFEF203C1C50CD3B0056B25C /* ViewController.h */,
@@ -80,6 +123,55 @@
 				FFEF20371C50CD3A0056B25C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFEF20501C50CD700056B25C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FFEF20531C50CD900056B25C /* SAPBaseCoreDataObject.h */,
+				FFEF20541C50CD900056B25C /* SAPBaseCoreDataObject.m */,
+				FFEF207C1C51FED30056B25C /* People+CoreDataProperties.h */,
+				FFEF207D1C51FED30056B25C /* People+CoreDataProperties.m */,
+				FFEF20821C51FEEB0056B25C /* People.h */,
+				FFEF20831C51FEEB0056B25C /* People.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FFEF20511C50CD700056B25C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FFEF20651C50CDE30056B25C /* InboxAppRequestManager.h */,
+				FFEF20661C50CDE30056B25C /* InboxAppRequestManager.m */,
+				FFEF20581C50CDAC0056B25C /* InboxAppBaseService.h */,
+				FFEF20591C50CDAC0056B25C /* InboxAppBaseService.m */,
+				FFEF20731C51FC830056B25C /* InboxAppDemoService.h */,
+				FFEF20741C51FC830056B25C /* InboxAppDemoService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FFEF20521C50CD700056B25C /* TaskManager */ = {
+			isa = PBXGroup;
+			children = (
+				FFEF205C1C50CDDA0056B25C /* InboxAppTask.h */,
+				FFEF205D1C50CDDA0056B25C /* InboxAppTask.m */,
+				FFEF205E1C50CDDA0056B25C /* InboxAppQueueManager.h */,
+				FFEF205F1C50CDDA0056B25C /* InboxAppQueueManager.m */,
+				FFEF20601C50CDDA0056B25C /* InboxAppTaskForwardCenter.h */,
+				FFEF20611C50CDDA0056B25C /* InboxAppTaskForwardCenter.m */,
+			);
+			path = TaskManager;
+			sourceTree = "<group>";
+		};
+		FFEF206A1C50CF490056B25C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				FFEF206C1C50CFB10056B25C /* NSString+TCEExt.h */,
+				FFEF206D1C50CFB10056B25C /* NSString+TCEExt.m */,
+				FFEF206B1C50CF500056B25C /* HPCommonMacro.h */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,10 +244,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFEF20671C50CDE30056B25C /* InboxAppRequestManager.m in Sources */,
+				FFEF205B1C50CDAC0056B25C /* InboxAppBaseService.m in Sources */,
+				FFEF20551C50CD900056B25C /* SAPBaseCoreDataObject.m in Sources */,
+				FFEF20801C51FED30056B25C /* People+CoreDataProperties.m in Sources */,
+				FFEF20631C50CDDA0056B25C /* InboxAppQueueManager.m in Sources */,
 				FFEF20441C50CD3B0056B25C /* Architecture.xcdatamodeld in Sources */,
+				FFEF20641C50CDDA0056B25C /* InboxAppTaskForwardCenter.m in Sources */,
+				FFEF20621C50CDDA0056B25C /* InboxAppTask.m in Sources */,
+				FFEF206E1C50CFB10056B25C /* NSString+TCEExt.m in Sources */,
 				FFEF203E1C50CD3B0056B25C /* ViewController.m in Sources */,
+				FFEF20841C51FEEB0056B25C /* People.m in Sources */,
 				FFEF203B1C50CD3B0056B25C /* AppDelegate.m in Sources */,
 				FFEF20381C50CD3A0056B25C /* main.m in Sources */,
+				FFEF20751C51FC830056B25C /* InboxAppDemoService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +369,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Architecture/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Personal.Architecture;
@@ -278,6 +384,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Architecture/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Personal.Architecture;
@@ -304,6 +414,7 @@
 				FFEF204F1C50CD3B0056B25C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

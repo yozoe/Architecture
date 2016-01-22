@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "People.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    // Fake Demo
+    [People fetchAllWithCompletionBlock:^(BOOL success, id  _Nonnull result) {
+        
+    }];
+    
 }
 
 - (void)didReceiveMemoryWarning {
