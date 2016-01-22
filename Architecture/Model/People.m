@@ -18,6 +18,26 @@
 
 @implementation People (Service)
 
++ (NSArray *)highSecureKeys
+{
+    return @[@"identifier, address"];
+}
+
++ (NSDictionary *)keyMap
+{
+    return @ {@"id"   : @"identifier",
+              @"age"  : @"age",
+              @"addr" : @"address",
+              @"name" : @"name",
+              @"gender" : @"sex"};
+}
+
++ (NSArray *)requiredKeys
+{
+    return @[@"id"];
+}
+
+
 + (void)fetchAllWithCompletionBlock:(void(^)(BOOL success, id result))block
 {
     InboxAppTask *task = [[InboxAppTask alloc] init];
